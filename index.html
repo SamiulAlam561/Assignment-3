@@ -38,15 +38,28 @@
       <nav class="lg:flex lg:items-center lg:justify-between mb-8">
         <!-- rinterio -->
         <div class="flex items-center justify-between">
-      <div class="flex items-center">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 bg-[#ABEF5F] p-1 rounded-full mr-2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-        </svg>
-        
-      <a class="text-3xl font-extrabold">Rinterio</a>
-      </div>
+          <div class="flex items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-8 inline -rotate-45 bg-[#ABEF5F] rounded-full p-1 mr-1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+              />
+            </svg>
 
-          <i class="fa-solid fa-bars lg:hidden text-[#737373] p-4 bg-white rounded-full border border-1"></i>
+            <a class="text-3xl font-extrabold">Rinterio</a>
+          </div>
+
+          <i
+            class="fa-solid fa-bars lg:hidden text-[#737373] p-4 bg-white rounded-full border border-1"
+          ></i>
         </div>
         <!-- links -->
         <div class="hidden lg:block">
@@ -64,47 +77,164 @@
             class="fa-solid fa-magnifying-glass p-2 rounded-full border hidden lg:inline border-1 bg-white text-[#737373]"
           ></i>
           <i
-            class="fa-solid fa-cart-shopping  p-2 hidden lg:inline bg-white rounded-full border border-1 text-[#737373]"
+            class="fa-solid fa-cart-shopping p-2 hidden lg:inline bg-white rounded-full border border-1 text-[#737373]"
           ></i>
           <button
             class="bg-[#ABEF5F] px-5 py-3 text-xl font-extrabold rounded-full hidden lg:inline"
-            >Book Consult
-            <i
-              class="fa-solid fa-arrow-right bg-[#1C1C1C] text-white p-2 -rotate-45 lg:inline-block hidden rounded-full"
-            ></i>
-        </button>
+          >
+            Book Consult
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="white"
+              class="size-8 inline -rotate-45 bg-[#1c1c1c] rounded-full p-1 ml-1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+              />
+            </svg>
+          </button>
         </div>
       </nav>
 
       <!-- Banner Section -->
-      <div class="text-center flex flex-col items-center space-y-5">
+      <div
+        class="text-center flex flex-col items-center justify-center space-y-5"
+      >
         <!-- image container -->
         <div>
           <img src="assets/banner.png" alt="" />
         </div>
         <!-- Text-container -->
-        <div class="space-y-6">
+        <div class="space-y-8">
           <h1 class="lg:text-6xl text-3xl font-extrabold text-[#212121]">
-            A barn house of this design has a striking appearance
+            A barn house of this design has a <br> striking appearance
           </h1>
-          <p class="text-base lg:text-xl font-medium text-[#494949]">
+          <p class="text-sm lg:text-base font-medium text-[#494949]">
             The barn house captivates with its blend of rustic charm and modern
-            sophistication, featuring weathered wood, sleek metal accents, and
+            sophistication, featuring weathered wood, sleek metal <br> accents, and
             large windows that flood the space with natural light.
           </p>
 
-          <button class="bg-[#ABEF5F] px-5 py-3 text-xl font-extrabold rounded-full">
-            Book Consult
-            <i
-              class="fa-solid fa-arrow-right lg:inline-block hidden -rotate-45 bg-[#1C1C1C] text-white p-2 rounded-full"
-            ></i>
-          </button>
+          <button
+          class="bg-[#ABEF5F]/50 px-6 py-3 lg:px-5 lg:py-3 text-xl font-extrabold rounded-full"
+        >
+          View Details
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-8 inline -rotate-45 bg-[#ABEF5F] rounded-full p-1 ml-1"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+            />
+          </svg>
+        </button>
         </div>
       </div>
     </header>
 
     <!-- Main Section -->
-    <main></main>
+    <main class="bg-[#F4F4F4] my-9 p-5 lg:px-32 lg:py-24">
+      <!-- About us Section -->
+      <section class="grid grid-cols-1 lg:grid-cols-2 lg:gap-9 space-y-6">
+        <!-- left col -->
+        <div class="lg:space-y-8 space-y-4 text-center lg:text-left">
+          <!-- about us btn -->
+          <button
+            class="bg-[#FFFFFF] py-2 px-4 text-base font-bold rounded-full"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-8 inline -rotate-0 rounded-full p-1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+              />
+            </svg>
+            About Us
+          </button>
+
+          <!-- text section -->
+          <div class="lg:space-y-6 space-y-4">
+            <h1 class="text-center lg:text-left font-bold text-2xl lg:text-4xl text-[#212121]">
+              We design thoughtful, liveable spaces
+            </h1>
+            <p class="text-center lg:text-left font-medium text-sm lg:text-base text-[#494949]">
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+          </div>
+
+          <!-- Card section -->
+          <!-- card-1 -->
+          <div class="p-4 lg:p-6 shadow-sm rounded-2xl bg-white flex text-left">
+            <img
+              class="lg:w-16 lg:h-16 w-10 h-10 lg:mr-6 mr-5"
+              src="assets/commercial.png"
+              alt=""
+            />
+            <!-- text card -->
+            <div>
+              <h3
+                class="text-base lg:text-xl font-extrabold text-[#494949] mb-3"
+              >
+                Commercial
+              </h3>
+              <p class="text-base font-medium text-[#737373]">
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+            </div>
+          </div>
+
+          <!-- card-2 -->
+          <div class="p-4 lg:p-6 shadow-sm rounded-2xl bg-white flex text-left">
+            <img
+              class="lg:w-16 lg:h-16 w-10 h-10 lg:mr-6 mr-5"
+              src="assets/residential.png"
+              alt=""
+            />
+            <!-- text card -->
+            <div>
+              <h3
+                class="text-base lg:text-xl font-extrabold text-[#494949] mb-3"
+              >
+                Residential
+              </h3>
+              <p class="text-base font-medium text-[#737373]">
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- right col -->
+        <div class="overflow-hidden rounded-2xl lg:rounded-none">
+          <img class="transform scale-125 lg:scale-100" src="assets/Rectangle.png" alt="">
+        </div>
+      </section>
+
+      <!-- How we work Section -->
+
+
+    </main>
 
     <!-- Footer Section -->
     <footer></footer>
