@@ -33,7 +33,7 @@
   </head>
   <body class="font-manrope">
     <!-- Header Section -->
-    <header class="lg:px-32 lg:pb-24 lg:pt-12 p-5 mx-auto">
+    <header class="lg:px-32 lg:pb-28 lg:pt-12 p-5 mx-auto">
       <!-- Navbar Section -->
       <nav class="lg:flex lg:items-center lg:justify-between mb-8">
         <!-- rinterio -->
@@ -144,14 +144,14 @@
     </header>
 
     <!-- Main Section -->
-    <main class="bg-[#F4F4F4] my-9 p-5 lg:px-32 lg:py-24">
+    <main class="bg-[#F4F4F4]">
       <!-- About us Section -->
-      <section class="grid grid-cols-1 lg:grid-cols-2 lg:gap-9 space-y-6">
+      <section class="grid grid-cols-1 lg:grid-cols-2 lg:gap-9 space-y-6 p-5 lg:px-36 lg:py-24">
         <!-- left col -->
-        <div class="lg:space-y-8 space-y-4 text-center lg:text-left">
+        <div class="lg:space-y-8 space-y-4 text-center lg:text-left lg:relative">
           <!-- about us btn -->
           <button
-            class="bg-[#FFFFFF] py-2 px-4 text-base font-bold rounded-full"
+            class="bg-[#FFFFFF] py-2 px-4 text-base font-extrabold rounded-full"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -170,13 +170,15 @@
             About Us
           </button>
 
+          <img class="hidden lg:inline lg:absolute lg:-top-24 lg:-left-12" src="assets/Vector.png" alt="">
+
           <!-- text section -->
           <div class="lg:space-y-6 space-y-4">
-            <h1 class="text-center lg:text-left font-bold text-2xl lg:text-4xl text-[#212121]">
-              We design thoughtful, liveable spaces
+            <h1 class="text-center lg:text-left font-extrabold text-2xl lg:text-4xl text-[#212121]">
+              We design thoughtful, <br> liveable spaces
             </h1>
-            <p class="text-center lg:text-left font-medium text-sm lg:text-base text-[#494949]">
-              The barn house captivates with its blend of rustic charm and
+            <p class="text-center lg:text-left font-medium text-sm lg:text-base text-[#494949] ">
+              The barn house captivates with its blend of rustic charm and 
               modern sophistication, featuring weathered wood, sleek metal
               accents.
             </p>
@@ -227,11 +229,100 @@
         </div>
         <!-- right col -->
         <div class="overflow-hidden rounded-2xl lg:rounded-none">
-          <img class="transform scale-125 lg:scale-100" src="assets/Rectangle.png" alt="">
+          <img class="transform scale-125 lg:scale-100 w-full" src="assets/Rectangle.png" alt="">
         </div>
       </section>
 
       <!-- How we work Section -->
+      <section class="flex flex-col justify-center items-center p-5 lg:px-36 lg:py-24">
+        <!-- text section -->
+         <div class="text-center space-y-6">
+          <button
+          class="bg-[#FFFFFF] py-2 px-4 text-base font-extrabold rounded-full"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-8 inline -rotate-0 rounded-full p-1"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+            />
+          </svg>
+          How We Work
+        </button>
+
+        <h1 class="font-extrabold text-2xl lg:text-4xl text-[#212121]">
+          Our Works Process
+        </h1>
+        <p class="r font-medium text-sm lg:text-base text-[#494949] ">
+          The barn house captivates with its blend of rustic charm and 
+          modern sophistication, <br> featuring weathered wood, sleek metal
+          accents.
+        </p>
+         </div>
+
+         <!-- card section -->
+         <div class="lg:flex lg:my-8  gap-6 space-y-6 mt-6">
+          <!-- card-1 -->
+          <div class="bg-[#E7C1D3] p-6 rounded-2xl">
+            <img src="assets/concept.png" alt="">
+            <h3
+                class="text-base lg:text-xl font-extrabold text-[#1c1c1c] mb-2"
+              >
+                Concept
+              </h3>
+              <p class="text-base font-medium text-[#494949]">
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+          </div>
+          <!-- card-2 -->
+          <div class="bg-[#EFDA6E] p-6 rounded-2xl">
+            <img src="assets/flow-chart.png" alt="">
+            <h3
+            class="text-base lg:text-xl font-extrabold text-[#1c1c1c] mb-2"
+          >
+            Design Process
+          </h3>
+          <p class="text-base font-medium text-[#494949]">
+            The barn house captivates with its blend of rustic charm and
+            modern.
+          </p>
+          </div>
+          <!-- card-3 -->
+          <div class="bg-[#A4DAC3] p-6 rounded-2xl">
+            <img src="assets/vision.png" alt="">
+            <h3
+            class="text-base lg:text-xl font-extrabold text-[#1c1c1c] mb-2"
+          >
+            Supervision
+          </h3>
+          <p class="text-base font-medium text-[#494949]">
+            The barn house captivates with its blend of rustic charm and
+            modern.
+          </p>
+          </div>
+          <!-- card-4 -->
+          <div class="bg-[#77AAEA] p-6 rounded-2xl">
+            <img src="assets/budget-planning.png" alt="">
+            <h3
+            class="text-base lg:text-xl font-extrabold text-[#1c1c1c] mb-2"
+          >
+          Budget Planning
+          </h3>
+          <p class="text-base font-medium text-[#494949]">
+            The barn house captivates with its blend of rustic charm and
+            modern.
+          </p>
+          </div>
+         </div>
+      </section>
 
 
     </main>
